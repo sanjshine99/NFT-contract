@@ -26,52 +26,9 @@ Once logged in, click on the bucket button on the left-hand side menu, and creat
 Navigate into the bucket, click on the upload button, and upload the image you want to use for your NFT
 Once uploaded click on it and copy the IPFS Gateway URL:
 Using any text editor, paste the following JSON code:
-{ 
-  "description": "This NFT proves I've created and deployed my first ERC20 smart contract on Goerli with Alchemy Road to Web3",
-  "external_url": "Alchemy.com/?a=roadtoweb3weekone",
-  "image": "https://ipfs.filebase.io/ipfs/bafybeihyvhgbcov2nmvbnveunoodokme5eb42uekrqowxdennt2qyeculm",
-  "name": "A cool NFT", 
-  "attributes": [
-    {
-      "trait_type": "Base", 
-      "value": "Starfish"
-    }, 
-    {
-      "trait_type": "Eyes", 
-      "value": "Big"
-    }, 
-    {
-      "trait_type": "Mouth", 
-      "value": "Surprised"
-    }, 
-    {
-      "trait_type": "Level", 
-      "value": 5
-    }, 
-    {
-      "trait_type": "Stamina", 
-      "value": 1.4
-    }, 
-    {
-      "trait_type": "Personality", 
-      "value": "Sad"
-    }, 
-    {
-      "display_type": "boost_number", 
-      "trait_type": "Aqua Power", 
-      "value": 40
-    }, 
-    {
-      "display_type": "boost_percentage", 
-      "trait_type": "Stamina Increase", 
-      "value": 10
-    }, 
-    {
-      "display_type": "number", 
-      "trait_type": "Generation", 
-      "value": 2
-    }]
-  }
+
+![Screenshot 2022-10-12 140726](https://user-images.githubusercontent.com/78193662/195293844-80b4b6c8-a2e1-4609-a1ed-943a00a83e40.png)
+
 
 And save the file as "metadata.json". Move back to Filebase and upload the metadata.json file in the same bucket where we uploaded the Image.
 Lastly, click on the CID and copy it, we’ll need it in the next part to build the token URI when minting out NFT:
